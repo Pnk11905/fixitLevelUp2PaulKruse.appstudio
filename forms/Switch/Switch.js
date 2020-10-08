@@ -17,6 +17,8 @@ console.log(stateS.toUpperCase());
 let tempS = Number(prompt('Enter the temperature in Farenheit'));
 
 // output based on the user input
+// change alert to  NSB.MsgBox
+
 switch(true) {
   case (stateS.toUpperCase() == stateNameS[0] && tempS < 32):
     NSB.MsgBox(`${updatedNameS}, you are from ${stateS.toUpperCase()} \and it \is currently ${tempS} degrees, ${messagesS[0]}`)
